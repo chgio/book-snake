@@ -1,0 +1,2093 @@
+looping through user	0: andrew...
+			(3, 3, 1, 0, 3, 0, 3, 0, 0, -3, 0, 5, 3, 0, 1, 0, 0, 5, 3, 0, 0, 0, 0, 1, 0, 3, 0, 1, 0, 0, 3, 5, 3, 3, 0, 0, 0, 5, 0, 5, 0, 3, 3, 0, -3, 0, 0, 5, 1, 5, 3, 0, 3, 0, 0)
+	with top rating		5
+	item 0:
+	3	for andrew; 
+	5	for Moose;
+	out of top rating of 5.
+	item 1:
+	3	for andrew; 
+	5	for Moose;
+	out of top rating of 5.
+	item 2:
+	1	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 3:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 4:
+	3	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 5:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 6:
+	3	for andrew; 
+	3	for Moose;
+	out of top rating of 5.
+	item 7:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 8:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 9:
+	-3	for andrew; 
+	1	for Moose;
+	out of top rating of 5.
+	item 10:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 11:
+	5	for andrew; 
+	5	for Moose;
+	out of top rating of 5.
+	item 12:
+	3	for andrew; 
+	3	for Moose;
+	out of top rating of 5.
+	item 13:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 14:
+	1	for andrew; 
+	5	for Moose;
+	out of top rating of 5.
+	item 15:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 16:
+	0	for andrew; 
+	3	for Moose;
+	out of top rating of 5.
+	item 17:
+	5	for andrew; 
+	3	for Moose;
+	out of top rating of 5.
+	item 18:
+	3	for andrew; 
+	5	for Moose;
+	out of top rating of 5.
+	item 19:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 20:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 21:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 22:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 23:
+	1	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 24:
+	0	for andrew; 
+	5	for Moose;
+	out of top rating of 5.
+	item 25:
+	3	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 26:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 27:
+	1	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 28:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 29:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 30:
+	3	for andrew; 
+	3	for Moose;
+	out of top rating of 5.
+	item 31:
+	5	for andrew; 
+	5	for Moose;
+	out of top rating of 5.
+	item 32:
+	3	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 33:
+	3	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 34:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 35:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 36:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 37:
+	5	for andrew; 
+	5	for Moose;
+	out of top rating of 5.
+	item 38:
+	0	for andrew; 
+	-3	for Moose;
+	out of top rating of 5.
+	item 39:
+	5	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+		deactivating lower rating flag. updating:
+		recommended:		[39]
+		recommendations:	{('andrew', 228): [(39, 5)]}.
+looping through user	0: andrew...
+			(3, 3, 1, 0, 3, 0, 3, 0, 0, -3, 0, 5, 3, 0, 1, 0, 0, 5, 3, 0, 0, 0, 0, 1, 0, 3, 0, 1, 0, 0, 3, 5, 3, 3, 0, 0, 0, 5, 0, 5, 0, 3, 3, 0, -3, 0, 0, 5, 1, 5, 3, 0, 3, 0, 0)
+	with top rating		5
+	item 0:
+	3	for andrew; 
+	5	for Moose;
+	out of top rating of 5.
+	item 1:
+	3	for andrew; 
+	5	for Moose;
+	out of top rating of 5.
+	item 2:
+	1	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 3:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 4:
+	3	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 5:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 6:
+	3	for andrew; 
+	3	for Moose;
+	out of top rating of 5.
+	item 7:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 8:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 9:
+	-3	for andrew; 
+	1	for Moose;
+	out of top rating of 5.
+	item 10:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 11:
+	5	for andrew; 
+	5	for Moose;
+	out of top rating of 5.
+	item 12:
+	3	for andrew; 
+	3	for Moose;
+	out of top rating of 5.
+	item 13:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 14:
+	1	for andrew; 
+	5	for Moose;
+	out of top rating of 5.
+	item 15:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 16:
+	0	for andrew; 
+	3	for Moose;
+	out of top rating of 5.
+	item 17:
+	5	for andrew; 
+	3	for Moose;
+	out of top rating of 5.
+	item 18:
+	3	for andrew; 
+	5	for Moose;
+	out of top rating of 5.
+	item 19:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 20:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 21:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 22:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 23:
+	1	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 24:
+	0	for andrew; 
+	5	for Moose;
+	out of top rating of 5.
+	item 25:
+	3	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 26:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 27:
+	1	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 28:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 29:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 30:
+	3	for andrew; 
+	3	for Moose;
+	out of top rating of 5.
+	item 31:
+	5	for andrew; 
+	5	for Moose;
+	out of top rating of 5.
+	item 32:
+	3	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 33:
+	3	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 34:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 35:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 36:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 37:
+	5	for andrew; 
+	5	for Moose;
+	out of top rating of 5.
+	item 38:
+	0	for andrew; 
+	-3	for Moose;
+	out of top rating of 5.
+	item 39:
+	5	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 40:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 41:
+	3	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 42:
+	3	for andrew; 
+	5	for Moose;
+	out of top rating of 5.
+	item 43:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 44:
+	-3	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 45:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 46:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 47:
+	5	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+		deactivating lower rating flag. updating:
+		recommended:		[39, 47]
+		recommendations:	{('andrew', 228): [(39, 5), (47, 5)]}.
+looping through user	0: andrew...
+			(3, 3, 1, 0, 3, 0, 3, 0, 0, -3, 0, 5, 3, 0, 1, 0, 0, 5, 3, 0, 0, 0, 0, 1, 0, 3, 0, 1, 0, 0, 3, 5, 3, 3, 0, 0, 0, 5, 0, 5, 0, 3, 3, 0, -3, 0, 0, 5, 1, 5, 3, 0, 3, 0, 0)
+	with top rating		5
+	item 0:
+	3	for andrew; 
+	5	for Moose;
+	out of top rating of 5.
+	item 1:
+	3	for andrew; 
+	5	for Moose;
+	out of top rating of 5.
+	item 2:
+	1	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 3:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 4:
+	3	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 5:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 6:
+	3	for andrew; 
+	3	for Moose;
+	out of top rating of 5.
+	item 7:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 8:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 9:
+	-3	for andrew; 
+	1	for Moose;
+	out of top rating of 5.
+	item 10:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 11:
+	5	for andrew; 
+	5	for Moose;
+	out of top rating of 5.
+	item 12:
+	3	for andrew; 
+	3	for Moose;
+	out of top rating of 5.
+	item 13:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 14:
+	1	for andrew; 
+	5	for Moose;
+	out of top rating of 5.
+	item 15:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 16:
+	0	for andrew; 
+	3	for Moose;
+	out of top rating of 5.
+	item 17:
+	5	for andrew; 
+	3	for Moose;
+	out of top rating of 5.
+	item 18:
+	3	for andrew; 
+	5	for Moose;
+	out of top rating of 5.
+	item 19:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 20:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 21:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 22:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 23:
+	1	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 24:
+	0	for andrew; 
+	5	for Moose;
+	out of top rating of 5.
+	item 25:
+	3	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 26:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 27:
+	1	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 28:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 29:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 30:
+	3	for andrew; 
+	3	for Moose;
+	out of top rating of 5.
+	item 31:
+	5	for andrew; 
+	5	for Moose;
+	out of top rating of 5.
+	item 32:
+	3	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 33:
+	3	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 34:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 35:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 36:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 37:
+	5	for andrew; 
+	5	for Moose;
+	out of top rating of 5.
+	item 38:
+	0	for andrew; 
+	-3	for Moose;
+	out of top rating of 5.
+	item 39:
+	5	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 40:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 41:
+	3	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 42:
+	3	for andrew; 
+	5	for Moose;
+	out of top rating of 5.
+	item 43:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 44:
+	-3	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 45:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 46:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 47:
+	5	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 48:
+	1	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 49:
+	5	for andrew; 
+	5	for Moose;
+	out of top rating of 5.
+	item 50:
+	3	for andrew; 
+	5	for Moose;
+	out of top rating of 5.
+	item 51:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 52:
+	3	for andrew; 
+	3	for Moose;
+	out of top rating of 5.
+	item 53:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+	item 54:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 5.
+		lower rating flag active.
+		lowering top rating to 4...
+looping through user	0: andrew...
+			(3, 3, 1, 0, 3, 0, 3, 0, 0, -3, 0, 5, 3, 0, 1, 0, 0, 5, 3, 0, 0, 0, 0, 1, 0, 3, 0, 1, 0, 0, 3, 5, 3, 3, 0, 0, 0, 5, 0, 5, 0, 3, 3, 0, -3, 0, 0, 5, 1, 5, 3, 0, 3, 0, 0)
+	with top rating		4
+	item 0:
+	3	for andrew; 
+	5	for Moose;
+	out of top rating of 4.
+	item 1:
+	3	for andrew; 
+	5	for Moose;
+	out of top rating of 4.
+	item 2:
+	1	for andrew; 
+	0	for Moose;
+	out of top rating of 4.
+	item 3:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 4.
+	item 4:
+	3	for andrew; 
+	0	for Moose;
+	out of top rating of 4.
+	item 5:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 4.
+	item 6:
+	3	for andrew; 
+	3	for Moose;
+	out of top rating of 4.
+	item 7:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 4.
+	item 8:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 4.
+	item 9:
+	-3	for andrew; 
+	1	for Moose;
+	out of top rating of 4.
+	item 10:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 4.
+	item 11:
+	5	for andrew; 
+	5	for Moose;
+	out of top rating of 4.
+	item 12:
+	3	for andrew; 
+	3	for Moose;
+	out of top rating of 4.
+	item 13:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 4.
+	item 14:
+	1	for andrew; 
+	5	for Moose;
+	out of top rating of 4.
+	item 15:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 4.
+	item 16:
+	0	for andrew; 
+	3	for Moose;
+	out of top rating of 4.
+	item 17:
+	5	for andrew; 
+	3	for Moose;
+	out of top rating of 4.
+	item 18:
+	3	for andrew; 
+	5	for Moose;
+	out of top rating of 4.
+	item 19:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 4.
+	item 20:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 4.
+	item 21:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 4.
+	item 22:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 4.
+	item 23:
+	1	for andrew; 
+	0	for Moose;
+	out of top rating of 4.
+	item 24:
+	0	for andrew; 
+	5	for Moose;
+	out of top rating of 4.
+	item 25:
+	3	for andrew; 
+	0	for Moose;
+	out of top rating of 4.
+	item 26:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 4.
+	item 27:
+	1	for andrew; 
+	0	for Moose;
+	out of top rating of 4.
+	item 28:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 4.
+	item 29:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 4.
+	item 30:
+	3	for andrew; 
+	3	for Moose;
+	out of top rating of 4.
+	item 31:
+	5	for andrew; 
+	5	for Moose;
+	out of top rating of 4.
+	item 32:
+	3	for andrew; 
+	0	for Moose;
+	out of top rating of 4.
+	item 33:
+	3	for andrew; 
+	0	for Moose;
+	out of top rating of 4.
+	item 34:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 4.
+	item 35:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 4.
+	item 36:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 4.
+	item 37:
+	5	for andrew; 
+	5	for Moose;
+	out of top rating of 4.
+	item 38:
+	0	for andrew; 
+	-3	for Moose;
+	out of top rating of 4.
+	item 39:
+	5	for andrew; 
+	0	for Moose;
+	out of top rating of 4.
+	item 40:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 4.
+	item 41:
+	3	for andrew; 
+	0	for Moose;
+	out of top rating of 4.
+	item 42:
+	3	for andrew; 
+	5	for Moose;
+	out of top rating of 4.
+	item 43:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 4.
+	item 44:
+	-3	for andrew; 
+	0	for Moose;
+	out of top rating of 4.
+	item 45:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 4.
+	item 46:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 4.
+	item 47:
+	5	for andrew; 
+	0	for Moose;
+	out of top rating of 4.
+	item 48:
+	1	for andrew; 
+	0	for Moose;
+	out of top rating of 4.
+	item 49:
+	5	for andrew; 
+	5	for Moose;
+	out of top rating of 4.
+	item 50:
+	3	for andrew; 
+	5	for Moose;
+	out of top rating of 4.
+	item 51:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 4.
+	item 52:
+	3	for andrew; 
+	3	for Moose;
+	out of top rating of 4.
+	item 53:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 4.
+	item 54:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 4.
+		lower rating flag active.
+		lowering top rating to 3...
+looping through user	0: andrew...
+			(3, 3, 1, 0, 3, 0, 3, 0, 0, -3, 0, 5, 3, 0, 1, 0, 0, 5, 3, 0, 0, 0, 0, 1, 0, 3, 0, 1, 0, 0, 3, 5, 3, 3, 0, 0, 0, 5, 0, 5, 0, 3, 3, 0, -3, 0, 0, 5, 1, 5, 3, 0, 3, 0, 0)
+	with top rating		3
+	item 0:
+	3	for andrew; 
+	5	for Moose;
+	out of top rating of 3.
+	item 1:
+	3	for andrew; 
+	5	for Moose;
+	out of top rating of 3.
+	item 2:
+	1	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 3:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 4:
+	3	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+		deactivating lower rating flag. updating:
+		recommended:		[39, 47, 4]
+		recommendations:	{('andrew', 228): [(39, 5), (47, 5), (4, 3)]}.
+looping through user	0: andrew...
+			(3, 3, 1, 0, 3, 0, 3, 0, 0, -3, 0, 5, 3, 0, 1, 0, 0, 5, 3, 0, 0, 0, 0, 1, 0, 3, 0, 1, 0, 0, 3, 5, 3, 3, 0, 0, 0, 5, 0, 5, 0, 3, 3, 0, -3, 0, 0, 5, 1, 5, 3, 0, 3, 0, 0)
+	with top rating		3
+	item 0:
+	3	for andrew; 
+	5	for Moose;
+	out of top rating of 3.
+	item 1:
+	3	for andrew; 
+	5	for Moose;
+	out of top rating of 3.
+	item 2:
+	1	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 3:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 4:
+	3	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 5:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 6:
+	3	for andrew; 
+	3	for Moose;
+	out of top rating of 3.
+	item 7:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 8:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 9:
+	-3	for andrew; 
+	1	for Moose;
+	out of top rating of 3.
+	item 10:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 11:
+	5	for andrew; 
+	5	for Moose;
+	out of top rating of 3.
+	item 12:
+	3	for andrew; 
+	3	for Moose;
+	out of top rating of 3.
+	item 13:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 14:
+	1	for andrew; 
+	5	for Moose;
+	out of top rating of 3.
+	item 15:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 16:
+	0	for andrew; 
+	3	for Moose;
+	out of top rating of 3.
+	item 17:
+	5	for andrew; 
+	3	for Moose;
+	out of top rating of 3.
+	item 18:
+	3	for andrew; 
+	5	for Moose;
+	out of top rating of 3.
+	item 19:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 20:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 21:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 22:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 23:
+	1	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 24:
+	0	for andrew; 
+	5	for Moose;
+	out of top rating of 3.
+	item 25:
+	3	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+		deactivating lower rating flag. updating:
+		recommended:		[39, 47, 4, 25]
+		recommendations:	{('andrew', 228): [(39, 5), (47, 5), (4, 3), (25, 3)]}.
+looping through user	0: andrew...
+			(3, 3, 1, 0, 3, 0, 3, 0, 0, -3, 0, 5, 3, 0, 1, 0, 0, 5, 3, 0, 0, 0, 0, 1, 0, 3, 0, 1, 0, 0, 3, 5, 3, 3, 0, 0, 0, 5, 0, 5, 0, 3, 3, 0, -3, 0, 0, 5, 1, 5, 3, 0, 3, 0, 0)
+	with top rating		3
+	item 0:
+	3	for andrew; 
+	5	for Moose;
+	out of top rating of 3.
+	item 1:
+	3	for andrew; 
+	5	for Moose;
+	out of top rating of 3.
+	item 2:
+	1	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 3:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 4:
+	3	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 5:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 6:
+	3	for andrew; 
+	3	for Moose;
+	out of top rating of 3.
+	item 7:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 8:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 9:
+	-3	for andrew; 
+	1	for Moose;
+	out of top rating of 3.
+	item 10:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 11:
+	5	for andrew; 
+	5	for Moose;
+	out of top rating of 3.
+	item 12:
+	3	for andrew; 
+	3	for Moose;
+	out of top rating of 3.
+	item 13:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 14:
+	1	for andrew; 
+	5	for Moose;
+	out of top rating of 3.
+	item 15:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 16:
+	0	for andrew; 
+	3	for Moose;
+	out of top rating of 3.
+	item 17:
+	5	for andrew; 
+	3	for Moose;
+	out of top rating of 3.
+	item 18:
+	3	for andrew; 
+	5	for Moose;
+	out of top rating of 3.
+	item 19:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 20:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 21:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 22:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 23:
+	1	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 24:
+	0	for andrew; 
+	5	for Moose;
+	out of top rating of 3.
+	item 25:
+	3	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 26:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 27:
+	1	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 28:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 29:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 30:
+	3	for andrew; 
+	3	for Moose;
+	out of top rating of 3.
+	item 31:
+	5	for andrew; 
+	5	for Moose;
+	out of top rating of 3.
+	item 32:
+	3	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+		deactivating lower rating flag. updating:
+		recommended:		[39, 47, 4, 25, 32]
+		recommendations:	{('andrew', 228): [(39, 5), (47, 5), (4, 3), (25, 3), (32, 3)]}.
+looping through user	0: andrew...
+			(3, 3, 1, 0, 3, 0, 3, 0, 0, -3, 0, 5, 3, 0, 1, 0, 0, 5, 3, 0, 0, 0, 0, 1, 0, 3, 0, 1, 0, 0, 3, 5, 3, 3, 0, 0, 0, 5, 0, 5, 0, 3, 3, 0, -3, 0, 0, 5, 1, 5, 3, 0, 3, 0, 0)
+	with top rating		3
+	item 0:
+	3	for andrew; 
+	5	for Moose;
+	out of top rating of 3.
+	item 1:
+	3	for andrew; 
+	5	for Moose;
+	out of top rating of 3.
+	item 2:
+	1	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 3:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 4:
+	3	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 5:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 6:
+	3	for andrew; 
+	3	for Moose;
+	out of top rating of 3.
+	item 7:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 8:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 9:
+	-3	for andrew; 
+	1	for Moose;
+	out of top rating of 3.
+	item 10:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 11:
+	5	for andrew; 
+	5	for Moose;
+	out of top rating of 3.
+	item 12:
+	3	for andrew; 
+	3	for Moose;
+	out of top rating of 3.
+	item 13:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 14:
+	1	for andrew; 
+	5	for Moose;
+	out of top rating of 3.
+	item 15:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 16:
+	0	for andrew; 
+	3	for Moose;
+	out of top rating of 3.
+	item 17:
+	5	for andrew; 
+	3	for Moose;
+	out of top rating of 3.
+	item 18:
+	3	for andrew; 
+	5	for Moose;
+	out of top rating of 3.
+	item 19:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 20:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 21:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 22:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 23:
+	1	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 24:
+	0	for andrew; 
+	5	for Moose;
+	out of top rating of 3.
+	item 25:
+	3	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 26:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 27:
+	1	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 28:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 29:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 30:
+	3	for andrew; 
+	3	for Moose;
+	out of top rating of 3.
+	item 31:
+	5	for andrew; 
+	5	for Moose;
+	out of top rating of 3.
+	item 32:
+	3	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 33:
+	3	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+		deactivating lower rating flag. updating:
+		recommended:		[39, 47, 4, 25, 32, 33]
+		recommendations:	{('andrew', 228): [(39, 5), (47, 5), (4, 3), (25, 3), (32, 3), (33, 3)]}.
+looping through user	0: andrew...
+			(3, 3, 1, 0, 3, 0, 3, 0, 0, -3, 0, 5, 3, 0, 1, 0, 0, 5, 3, 0, 0, 0, 0, 1, 0, 3, 0, 1, 0, 0, 3, 5, 3, 3, 0, 0, 0, 5, 0, 5, 0, 3, 3, 0, -3, 0, 0, 5, 1, 5, 3, 0, 3, 0, 0)
+	with top rating		3
+	item 0:
+	3	for andrew; 
+	5	for Moose;
+	out of top rating of 3.
+	item 1:
+	3	for andrew; 
+	5	for Moose;
+	out of top rating of 3.
+	item 2:
+	1	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 3:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 4:
+	3	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 5:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 6:
+	3	for andrew; 
+	3	for Moose;
+	out of top rating of 3.
+	item 7:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 8:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 9:
+	-3	for andrew; 
+	1	for Moose;
+	out of top rating of 3.
+	item 10:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 11:
+	5	for andrew; 
+	5	for Moose;
+	out of top rating of 3.
+	item 12:
+	3	for andrew; 
+	3	for Moose;
+	out of top rating of 3.
+	item 13:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 14:
+	1	for andrew; 
+	5	for Moose;
+	out of top rating of 3.
+	item 15:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 16:
+	0	for andrew; 
+	3	for Moose;
+	out of top rating of 3.
+	item 17:
+	5	for andrew; 
+	3	for Moose;
+	out of top rating of 3.
+	item 18:
+	3	for andrew; 
+	5	for Moose;
+	out of top rating of 3.
+	item 19:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 20:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 21:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 22:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 23:
+	1	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 24:
+	0	for andrew; 
+	5	for Moose;
+	out of top rating of 3.
+	item 25:
+	3	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 26:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 27:
+	1	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 28:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 29:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 30:
+	3	for andrew; 
+	3	for Moose;
+	out of top rating of 3.
+	item 31:
+	5	for andrew; 
+	5	for Moose;
+	out of top rating of 3.
+	item 32:
+	3	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 33:
+	3	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 34:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 35:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 36:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 37:
+	5	for andrew; 
+	5	for Moose;
+	out of top rating of 3.
+	item 38:
+	0	for andrew; 
+	-3	for Moose;
+	out of top rating of 3.
+	item 39:
+	5	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 40:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 41:
+	3	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+		deactivating lower rating flag. updating:
+		recommended:		[39, 47, 4, 25, 32, 33, 41]
+		recommendations:	{('andrew', 228): [(39, 5), (47, 5), (4, 3), (25, 3), (32, 3), (33, 3), (41, 3)]}.
+looping through user	0: andrew...
+			(3, 3, 1, 0, 3, 0, 3, 0, 0, -3, 0, 5, 3, 0, 1, 0, 0, 5, 3, 0, 0, 0, 0, 1, 0, 3, 0, 1, 0, 0, 3, 5, 3, 3, 0, 0, 0, 5, 0, 5, 0, 3, 3, 0, -3, 0, 0, 5, 1, 5, 3, 0, 3, 0, 0)
+	with top rating		3
+	item 0:
+	3	for andrew; 
+	5	for Moose;
+	out of top rating of 3.
+	item 1:
+	3	for andrew; 
+	5	for Moose;
+	out of top rating of 3.
+	item 2:
+	1	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 3:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 4:
+	3	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 5:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 6:
+	3	for andrew; 
+	3	for Moose;
+	out of top rating of 3.
+	item 7:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 8:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 9:
+	-3	for andrew; 
+	1	for Moose;
+	out of top rating of 3.
+	item 10:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 11:
+	5	for andrew; 
+	5	for Moose;
+	out of top rating of 3.
+	item 12:
+	3	for andrew; 
+	3	for Moose;
+	out of top rating of 3.
+	item 13:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 14:
+	1	for andrew; 
+	5	for Moose;
+	out of top rating of 3.
+	item 15:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 16:
+	0	for andrew; 
+	3	for Moose;
+	out of top rating of 3.
+	item 17:
+	5	for andrew; 
+	3	for Moose;
+	out of top rating of 3.
+	item 18:
+	3	for andrew; 
+	5	for Moose;
+	out of top rating of 3.
+	item 19:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 20:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 21:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 22:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 23:
+	1	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 24:
+	0	for andrew; 
+	5	for Moose;
+	out of top rating of 3.
+	item 25:
+	3	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 26:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 27:
+	1	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 28:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 29:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 30:
+	3	for andrew; 
+	3	for Moose;
+	out of top rating of 3.
+	item 31:
+	5	for andrew; 
+	5	for Moose;
+	out of top rating of 3.
+	item 32:
+	3	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 33:
+	3	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 34:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 35:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 36:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 37:
+	5	for andrew; 
+	5	for Moose;
+	out of top rating of 3.
+	item 38:
+	0	for andrew; 
+	-3	for Moose;
+	out of top rating of 3.
+	item 39:
+	5	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 40:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 41:
+	3	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 42:
+	3	for andrew; 
+	5	for Moose;
+	out of top rating of 3.
+	item 43:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 44:
+	-3	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 45:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 46:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 47:
+	5	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 48:
+	1	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 49:
+	5	for andrew; 
+	5	for Moose;
+	out of top rating of 3.
+	item 50:
+	3	for andrew; 
+	5	for Moose;
+	out of top rating of 3.
+	item 51:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 52:
+	3	for andrew; 
+	3	for Moose;
+	out of top rating of 3.
+	item 53:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+	item 54:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 3.
+		lower rating flag active.
+		lowering top rating to 2...
+looping through user	0: andrew...
+			(3, 3, 1, 0, 3, 0, 3, 0, 0, -3, 0, 5, 3, 0, 1, 0, 0, 5, 3, 0, 0, 0, 0, 1, 0, 3, 0, 1, 0, 0, 3, 5, 3, 3, 0, 0, 0, 5, 0, 5, 0, 3, 3, 0, -3, 0, 0, 5, 1, 5, 3, 0, 3, 0, 0)
+	with top rating		2
+	item 0:
+	3	for andrew; 
+	5	for Moose;
+	out of top rating of 2.
+	item 1:
+	3	for andrew; 
+	5	for Moose;
+	out of top rating of 2.
+	item 2:
+	1	for andrew; 
+	0	for Moose;
+	out of top rating of 2.
+	item 3:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 2.
+	item 4:
+	3	for andrew; 
+	0	for Moose;
+	out of top rating of 2.
+	item 5:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 2.
+	item 6:
+	3	for andrew; 
+	3	for Moose;
+	out of top rating of 2.
+	item 7:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 2.
+	item 8:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 2.
+	item 9:
+	-3	for andrew; 
+	1	for Moose;
+	out of top rating of 2.
+	item 10:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 2.
+	item 11:
+	5	for andrew; 
+	5	for Moose;
+	out of top rating of 2.
+	item 12:
+	3	for andrew; 
+	3	for Moose;
+	out of top rating of 2.
+	item 13:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 2.
+	item 14:
+	1	for andrew; 
+	5	for Moose;
+	out of top rating of 2.
+	item 15:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 2.
+	item 16:
+	0	for andrew; 
+	3	for Moose;
+	out of top rating of 2.
+	item 17:
+	5	for andrew; 
+	3	for Moose;
+	out of top rating of 2.
+	item 18:
+	3	for andrew; 
+	5	for Moose;
+	out of top rating of 2.
+	item 19:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 2.
+	item 20:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 2.
+	item 21:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 2.
+	item 22:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 2.
+	item 23:
+	1	for andrew; 
+	0	for Moose;
+	out of top rating of 2.
+	item 24:
+	0	for andrew; 
+	5	for Moose;
+	out of top rating of 2.
+	item 25:
+	3	for andrew; 
+	0	for Moose;
+	out of top rating of 2.
+	item 26:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 2.
+	item 27:
+	1	for andrew; 
+	0	for Moose;
+	out of top rating of 2.
+	item 28:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 2.
+	item 29:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 2.
+	item 30:
+	3	for andrew; 
+	3	for Moose;
+	out of top rating of 2.
+	item 31:
+	5	for andrew; 
+	5	for Moose;
+	out of top rating of 2.
+	item 32:
+	3	for andrew; 
+	0	for Moose;
+	out of top rating of 2.
+	item 33:
+	3	for andrew; 
+	0	for Moose;
+	out of top rating of 2.
+	item 34:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 2.
+	item 35:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 2.
+	item 36:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 2.
+	item 37:
+	5	for andrew; 
+	5	for Moose;
+	out of top rating of 2.
+	item 38:
+	0	for andrew; 
+	-3	for Moose;
+	out of top rating of 2.
+	item 39:
+	5	for andrew; 
+	0	for Moose;
+	out of top rating of 2.
+	item 40:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 2.
+	item 41:
+	3	for andrew; 
+	0	for Moose;
+	out of top rating of 2.
+	item 42:
+	3	for andrew; 
+	5	for Moose;
+	out of top rating of 2.
+	item 43:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 2.
+	item 44:
+	-3	for andrew; 
+	0	for Moose;
+	out of top rating of 2.
+	item 45:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 2.
+	item 46:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 2.
+	item 47:
+	5	for andrew; 
+	0	for Moose;
+	out of top rating of 2.
+	item 48:
+	1	for andrew; 
+	0	for Moose;
+	out of top rating of 2.
+	item 49:
+	5	for andrew; 
+	5	for Moose;
+	out of top rating of 2.
+	item 50:
+	3	for andrew; 
+	5	for Moose;
+	out of top rating of 2.
+	item 51:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 2.
+	item 52:
+	3	for andrew; 
+	3	for Moose;
+	out of top rating of 2.
+	item 53:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 2.
+	item 54:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 2.
+		lower rating flag active.
+		lowering top rating to 1...
+looping through user	0: andrew...
+			(3, 3, 1, 0, 3, 0, 3, 0, 0, -3, 0, 5, 3, 0, 1, 0, 0, 5, 3, 0, 0, 0, 0, 1, 0, 3, 0, 1, 0, 0, 3, 5, 3, 3, 0, 0, 0, 5, 0, 5, 0, 3, 3, 0, -3, 0, 0, 5, 1, 5, 3, 0, 3, 0, 0)
+	with top rating		1
+	item 0:
+	3	for andrew; 
+	5	for Moose;
+	out of top rating of 1.
+	item 1:
+	3	for andrew; 
+	5	for Moose;
+	out of top rating of 1.
+	item 2:
+	1	for andrew; 
+	0	for Moose;
+	out of top rating of 1.
+		deactivating lower rating flag. updating:
+		recommended:		[39, 47, 4, 25, 32, 33, 41, 2]
+		recommendations:	{('andrew', 228): [(39, 5), (47, 5), (4, 3), (25, 3), (32, 3), (33, 3), (41, 3), (2, 1)]}.
+looping through user	0: andrew...
+			(3, 3, 1, 0, 3, 0, 3, 0, 0, -3, 0, 5, 3, 0, 1, 0, 0, 5, 3, 0, 0, 0, 0, 1, 0, 3, 0, 1, 0, 0, 3, 5, 3, 3, 0, 0, 0, 5, 0, 5, 0, 3, 3, 0, -3, 0, 0, 5, 1, 5, 3, 0, 3, 0, 0)
+	with top rating		1
+	item 0:
+	3	for andrew; 
+	5	for Moose;
+	out of top rating of 1.
+	item 1:
+	3	for andrew; 
+	5	for Moose;
+	out of top rating of 1.
+	item 2:
+	1	for andrew; 
+	0	for Moose;
+	out of top rating of 1.
+	item 3:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 1.
+	item 4:
+	3	for andrew; 
+	0	for Moose;
+	out of top rating of 1.
+	item 5:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 1.
+	item 6:
+	3	for andrew; 
+	3	for Moose;
+	out of top rating of 1.
+	item 7:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 1.
+	item 8:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 1.
+	item 9:
+	-3	for andrew; 
+	1	for Moose;
+	out of top rating of 1.
+	item 10:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 1.
+	item 11:
+	5	for andrew; 
+	5	for Moose;
+	out of top rating of 1.
+	item 12:
+	3	for andrew; 
+	3	for Moose;
+	out of top rating of 1.
+	item 13:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 1.
+	item 14:
+	1	for andrew; 
+	5	for Moose;
+	out of top rating of 1.
+	item 15:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 1.
+	item 16:
+	0	for andrew; 
+	3	for Moose;
+	out of top rating of 1.
+	item 17:
+	5	for andrew; 
+	3	for Moose;
+	out of top rating of 1.
+	item 18:
+	3	for andrew; 
+	5	for Moose;
+	out of top rating of 1.
+	item 19:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 1.
+	item 20:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 1.
+	item 21:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 1.
+	item 22:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 1.
+	item 23:
+	1	for andrew; 
+	0	for Moose;
+	out of top rating of 1.
+		deactivating lower rating flag. updating:
+		recommended:		[39, 47, 4, 25, 32, 33, 41, 2, 23]
+		recommendations:	{('andrew', 228): [(39, 5), (47, 5), (4, 3), (25, 3), (32, 3), (33, 3), (41, 3), (2, 1), (23, 1)]}.
+looping through user	0: andrew...
+			(3, 3, 1, 0, 3, 0, 3, 0, 0, -3, 0, 5, 3, 0, 1, 0, 0, 5, 3, 0, 0, 0, 0, 1, 0, 3, 0, 1, 0, 0, 3, 5, 3, 3, 0, 0, 0, 5, 0, 5, 0, 3, 3, 0, -3, 0, 0, 5, 1, 5, 3, 0, 3, 0, 0)
+	with top rating		1
+	item 0:
+	3	for andrew; 
+	5	for Moose;
+	out of top rating of 1.
+	item 1:
+	3	for andrew; 
+	5	for Moose;
+	out of top rating of 1.
+	item 2:
+	1	for andrew; 
+	0	for Moose;
+	out of top rating of 1.
+	item 3:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 1.
+	item 4:
+	3	for andrew; 
+	0	for Moose;
+	out of top rating of 1.
+	item 5:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 1.
+	item 6:
+	3	for andrew; 
+	3	for Moose;
+	out of top rating of 1.
+	item 7:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 1.
+	item 8:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 1.
+	item 9:
+	-3	for andrew; 
+	1	for Moose;
+	out of top rating of 1.
+	item 10:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 1.
+	item 11:
+	5	for andrew; 
+	5	for Moose;
+	out of top rating of 1.
+	item 12:
+	3	for andrew; 
+	3	for Moose;
+	out of top rating of 1.
+	item 13:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 1.
+	item 14:
+	1	for andrew; 
+	5	for Moose;
+	out of top rating of 1.
+	item 15:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 1.
+	item 16:
+	0	for andrew; 
+	3	for Moose;
+	out of top rating of 1.
+	item 17:
+	5	for andrew; 
+	3	for Moose;
+	out of top rating of 1.
+	item 18:
+	3	for andrew; 
+	5	for Moose;
+	out of top rating of 1.
+	item 19:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 1.
+	item 20:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 1.
+	item 21:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 1.
+	item 22:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 1.
+	item 23:
+	1	for andrew; 
+	0	for Moose;
+	out of top rating of 1.
+	item 24:
+	0	for andrew; 
+	5	for Moose;
+	out of top rating of 1.
+	item 25:
+	3	for andrew; 
+	0	for Moose;
+	out of top rating of 1.
+	item 26:
+	0	for andrew; 
+	0	for Moose;
+	out of top rating of 1.
+	item 27:
+	1	for andrew; 
+	0	for Moose;
+	out of top rating of 1.
+		deactivating lower rating flag. updating:
+		recommended:		[39, 47, 4, 25, 32, 33, 41, 2, 23, 27]
+		recommendations:	{('andrew', 228): [(39, 5), (47, 5), (4, 3), (25, 3), (32, 3), (33, 3), (41, 3), (2, 1), (23, 1), (27, 1)]}.
+Check the output file at /data/output/output-Moose.txt for the formatted output delivered by this logged run of the recommendation algorithm.

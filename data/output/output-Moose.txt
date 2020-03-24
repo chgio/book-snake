@@ -1,0 +1,45 @@
+******************************
+* Recommendations for: Moose *
+******************************
+
+
+Recommended from: andrew                               (228 similarity)
+-----------------------------------------------------------------------
+
+	 1.	Hatchet                                        (rated 5)
+			by Gary Paulsen
+
+	 2.	Maus: A Survivor's Tale                        (rated 5)
+			by Art Spiegelman
+
+	 3.	I Know Why the Caged Bird Sings                (rated 3)
+			by Maya Angelou
+
+	 4.	Flowers For Algernon                           (rated 3)
+			by Daniel Keyes
+
+	 5.	The Bourne Series                              (rated 3)
+			by Robert Ludlum
+
+	 6.	Life of Pi                                     (rated 3)
+			by Yann Martel
+
+	 7.	The Golden Compass                             (rated 3)
+			by Philip Pullman
+
+	 8.	The Five People You Meet in Heaven             (rated 1)
+			by Mitch Albom
+
+	 9.	Brave New World                                (rated 1)
+			by Aldous Huxley
+
+	10.	Naruto                                         (rated 1)
+			by Masashi Kishimoto
+
+
+1	Recommendations based on the similarity algorithm:
+for:				Moose
+	with ratings:	(5, 5, 0, 0, 0, 0, 3, 0, 0, 1, 0, 5, 3, 0, 5, 0, 3, 3, 5, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 3, 5, 0, 0, 0, 0, 0, 5, -3, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 5, 5, 0, 3, 0, 0)
+with  rating      threshold of:	1
+and   similarity  threshold of:	None
+Check the recommendation algorithm log at logs/recommend-Moose_log.txt for more details about the recommendation process.
