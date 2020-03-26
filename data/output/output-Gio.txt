@@ -75,7 +75,7 @@ Recommended from: sage32                               (49 similarity)
 			by Shueisha
 
 
-3	Recommendations based on the similarity algorithm:
+20	Recommendations based on the similarity algorithm:
 for:				Gio
 	with ratings:	(0, 0, 0, 0, 0, 0, 5, 0, 0, 3, 0, 1, 0, 0, 0, 1, 0, 0, 3, 0, 1, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -3, 0, 0, -3, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3)
 with  rating      threshold of:	1
