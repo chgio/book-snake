@@ -12,8 +12,10 @@ def read_books(books_file='data/input/books.txt'):
         with open(books_file) as file:
             for line in file:
                 line = line.strip()
-                book = line.split(',')
-                books.append(tuple(book))
+                if len(line) != 0:
+                    line = line
+                    book = line.split(',')
+                    books.append(tuple(book))
     except FileNotFoundError:
         raise FileNotFoundError(f'Books file at {books_file} not found. FIX: make sure the file exists, is in the correct directory and has the correct name')
     
@@ -32,13 +34,15 @@ def read_ratings(ratings_file='data/input/ratings.txt'):
         with open(ratings_file) as file:
             user_flag = True
             for line in file:
-                if user_flag:
-                    user = line.strip()
-                else:
-                    rating = line.strip().split()
-                    rating = tuple(int(r) for r in rating)
-                    ratings.update({user: rating})
-                user_flag = not user_flag
+                line = line.strip()
+                if len(line) != 0:
+                    if user_flag:
+                        user = line
+                    else:
+                        rating = line.split()
+                        rating = tuple(int(r) for r in rating)
+                        ratings.update({user: rating})
+                    user_flag = not user_flag
     except FileNotFoundError:
         raise FileNotFoundError(f'Ratings file at {ratings_file} not found. FIX: make sure the file exists, is in the correct directory and has the correct name')
 
@@ -95,7 +99,7 @@ def printer(recommendations, user, books, ratings, rating_thr, score_thr):
             print('')
             print('', file=file)
         
-        s = f'''{len(recommendations)}\tRecommendations based on the similarity algorithm:
+        s = f'''{j}\tRecommendations based on the similarity algorithm:
 for:\t\t\t\t{user}
 \twith ratings:\t{ratings[user]}
 with  rating      threshold of:\t{rating_thr}
