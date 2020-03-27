@@ -1,4 +1,9 @@
+logging recommendation algorithm run for	Moose...
+											77 index:
+			(5, 5, 0, 0, 0, 0, 3, 0, 0, 1, 0, 5, 3, 0, 5, 0, 3, 3, 5, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 3, 5, 0, 0, 0, 0, 0, 5, -3, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 5, 5, 0, 3, 0, 0)
+
 looping through user	0: andrew...
+						88 index:
 			(3, 3, 1, 0, 3, 0, 3, 0, 0, -3, 0, 5, 3, 0, 1, 0, 0, 5, 3, 0, 0, 0, 0, 1, 0, 3, 0, 1, 0, 0, 3, 5, 3, 3, 0, 0, 0, 5, 0, 5, 0, 3, 3, 0, -3, 0, 0, 5, 1, 5, 3, 0, 3, 0, 0)
 	with top rating		5
 	item 0:
@@ -163,8 +168,9 @@ looping through user	0: andrew...
 	out of top rating of 5.
 		deactivating lower rating flag. updating:
 		recommended:		[39]
-		recommendations:	{('andrew', 228): [(39, 5)]}.
+		recommendations:	{('andrew', 88, 228): [(39, 5)]}.
 looping through user	0: andrew...
+						88 index:
 			(3, 3, 1, 0, 3, 0, 3, 0, 0, -3, 0, 5, 3, 0, 1, 0, 0, 5, 3, 0, 0, 0, 0, 1, 0, 3, 0, 1, 0, 0, 3, 5, 3, 3, 0, 0, 0, 5, 0, 5, 0, 3, 3, 0, -3, 0, 0, 5, 1, 5, 3, 0, 3, 0, 0)
 	with top rating		5
 	item 0:
@@ -361,8 +367,9 @@ looping through user	0: andrew...
 	out of top rating of 5.
 		deactivating lower rating flag. updating:
 		recommended:		[39, 47]
-		recommendations:	{('andrew', 228): [(39, 5), (47, 5)]}.
+		recommendations:	{('andrew', 88, 228): [(39, 5), (47, 5)]}.
 looping through user	0: andrew...
+						88 index:
 			(3, 3, 1, 0, 3, 0, 3, 0, 0, -3, 0, 5, 3, 0, 1, 0, 0, 5, 3, 0, 0, 0, 0, 1, 0, 3, 0, 1, 0, 0, 3, 5, 3, 3, 0, 0, 0, 5, 0, 5, 0, 3, 3, 0, -3, 0, 0, 5, 1, 5, 3, 0, 3, 0, 0)
 	with top rating		5
 	item 0:
@@ -588,6 +595,7 @@ looping through user	0: andrew...
 		lower rating flag active.
 		lowering top rating to 4...
 looping through user	0: andrew...
+						88 index:
 			(3, 3, 1, 0, 3, 0, 3, 0, 0, -3, 0, 5, 3, 0, 1, 0, 0, 5, 3, 0, 0, 0, 0, 1, 0, 3, 0, 1, 0, 0, 3, 5, 3, 3, 0, 0, 0, 5, 0, 5, 0, 3, 3, 0, -3, 0, 0, 5, 1, 5, 3, 0, 3, 0, 0)
 	with top rating		4
 	item 0:
@@ -813,6 +821,7 @@ looping through user	0: andrew...
 		lower rating flag active.
 		lowering top rating to 3...
 looping through user	0: andrew...
+						88 index:
 			(3, 3, 1, 0, 3, 0, 3, 0, 0, -3, 0, 5, 3, 0, 1, 0, 0, 5, 3, 0, 0, 0, 0, 1, 0, 3, 0, 1, 0, 0, 3, 5, 3, 3, 0, 0, 0, 5, 0, 5, 0, 3, 3, 0, -3, 0, 0, 5, 1, 5, 3, 0, 3, 0, 0)
 	with top rating		3
 	item 0:
@@ -837,8 +846,9 @@ looping through user	0: andrew...
 	out of top rating of 3.
 		deactivating lower rating flag. updating:
 		recommended:		[39, 47, 4]
-		recommendations:	{('andrew', 228): [(39, 5), (47, 5), (4, 3)]}.
+		recommendations:	{('andrew', 88, 228): [(39, 5), (47, 5), (4, 3)]}.
 looping through user	0: andrew...
+						88 index:
 			(3, 3, 1, 0, 3, 0, 3, 0, 0, -3, 0, 5, 3, 0, 1, 0, 0, 5, 3, 0, 0, 0, 0, 1, 0, 3, 0, 1, 0, 0, 3, 5, 3, 3, 0, 0, 0, 5, 0, 5, 0, 3, 3, 0, -3, 0, 0, 5, 1, 5, 3, 0, 3, 0, 0)
 	with top rating		3
 	item 0:
@@ -947,8 +957,9 @@ looping through user	0: andrew...
 	out of top rating of 3.
 		deactivating lower rating flag. updating:
 		recommended:		[39, 47, 4, 25]
-		recommendations:	{('andrew', 228): [(39, 5), (47, 5), (4, 3), (25, 3)]}.
+		recommendations:	{('andrew', 88, 228): [(39, 5), (47, 5), (4, 3), (25, 3)]}.
 looping through user	0: andrew...
+						88 index:
 			(3, 3, 1, 0, 3, 0, 3, 0, 0, -3, 0, 5, 3, 0, 1, 0, 0, 5, 3, 0, 0, 0, 0, 1, 0, 3, 0, 1, 0, 0, 3, 5, 3, 3, 0, 0, 0, 5, 0, 5, 0, 3, 3, 0, -3, 0, 0, 5, 1, 5, 3, 0, 3, 0, 0)
 	with top rating		3
 	item 0:
@@ -1085,8 +1096,9 @@ looping through user	0: andrew...
 	out of top rating of 3.
 		deactivating lower rating flag. updating:
 		recommended:		[39, 47, 4, 25, 32]
-		recommendations:	{('andrew', 228): [(39, 5), (47, 5), (4, 3), (25, 3), (32, 3)]}.
+		recommendations:	{('andrew', 88, 228): [(39, 5), (47, 5), (4, 3), (25, 3), (32, 3)]}.
 looping through user	0: andrew...
+						88 index:
 			(3, 3, 1, 0, 3, 0, 3, 0, 0, -3, 0, 5, 3, 0, 1, 0, 0, 5, 3, 0, 0, 0, 0, 1, 0, 3, 0, 1, 0, 0, 3, 5, 3, 3, 0, 0, 0, 5, 0, 5, 0, 3, 3, 0, -3, 0, 0, 5, 1, 5, 3, 0, 3, 0, 0)
 	with top rating		3
 	item 0:
@@ -1227,8 +1239,9 @@ looping through user	0: andrew...
 	out of top rating of 3.
 		deactivating lower rating flag. updating:
 		recommended:		[39, 47, 4, 25, 32, 33]
-		recommendations:	{('andrew', 228): [(39, 5), (47, 5), (4, 3), (25, 3), (32, 3), (33, 3)]}.
+		recommendations:	{('andrew', 88, 228): [(39, 5), (47, 5), (4, 3), (25, 3), (32, 3), (33, 3)]}.
 looping through user	0: andrew...
+						88 index:
 			(3, 3, 1, 0, 3, 0, 3, 0, 0, -3, 0, 5, 3, 0, 1, 0, 0, 5, 3, 0, 0, 0, 0, 1, 0, 3, 0, 1, 0, 0, 3, 5, 3, 3, 0, 0, 0, 5, 0, 5, 0, 3, 3, 0, -3, 0, 0, 5, 1, 5, 3, 0, 3, 0, 0)
 	with top rating		3
 	item 0:
@@ -1401,8 +1414,9 @@ looping through user	0: andrew...
 	out of top rating of 3.
 		deactivating lower rating flag. updating:
 		recommended:		[39, 47, 4, 25, 32, 33, 41]
-		recommendations:	{('andrew', 228): [(39, 5), (47, 5), (4, 3), (25, 3), (32, 3), (33, 3), (41, 3)]}.
+		recommendations:	{('andrew', 88, 228): [(39, 5), (47, 5), (4, 3), (25, 3), (32, 3), (33, 3), (41, 3)]}.
 looping through user	0: andrew...
+						88 index:
 			(3, 3, 1, 0, 3, 0, 3, 0, 0, -3, 0, 5, 3, 0, 1, 0, 0, 5, 3, 0, 0, 0, 0, 1, 0, 3, 0, 1, 0, 0, 3, 5, 3, 3, 0, 0, 0, 5, 0, 5, 0, 3, 3, 0, -3, 0, 0, 5, 1, 5, 3, 0, 3, 0, 0)
 	with top rating		3
 	item 0:
@@ -1628,6 +1642,7 @@ looping through user	0: andrew...
 		lower rating flag active.
 		lowering top rating to 2...
 looping through user	0: andrew...
+						88 index:
 			(3, 3, 1, 0, 3, 0, 3, 0, 0, -3, 0, 5, 3, 0, 1, 0, 0, 5, 3, 0, 0, 0, 0, 1, 0, 3, 0, 1, 0, 0, 3, 5, 3, 3, 0, 0, 0, 5, 0, 5, 0, 3, 3, 0, -3, 0, 0, 5, 1, 5, 3, 0, 3, 0, 0)
 	with top rating		2
 	item 0:
@@ -1853,6 +1868,7 @@ looping through user	0: andrew...
 		lower rating flag active.
 		lowering top rating to 1...
 looping through user	0: andrew...
+						88 index:
 			(3, 3, 1, 0, 3, 0, 3, 0, 0, -3, 0, 5, 3, 0, 1, 0, 0, 5, 3, 0, 0, 0, 0, 1, 0, 3, 0, 1, 0, 0, 3, 5, 3, 3, 0, 0, 0, 5, 0, 5, 0, 3, 3, 0, -3, 0, 0, 5, 1, 5, 3, 0, 3, 0, 0)
 	with top rating		1
 	item 0:
@@ -1869,8 +1885,9 @@ looping through user	0: andrew...
 	out of top rating of 1.
 		deactivating lower rating flag. updating:
 		recommended:		[39, 47, 4, 25, 32, 33, 41, 2]
-		recommendations:	{('andrew', 228): [(39, 5), (47, 5), (4, 3), (25, 3), (32, 3), (33, 3), (41, 3), (2, 1)]}.
+		recommendations:	{('andrew', 88, 228): [(39, 5), (47, 5), (4, 3), (25, 3), (32, 3), (33, 3), (41, 3), (2, 1)]}.
 looping through user	0: andrew...
+						88 index:
 			(3, 3, 1, 0, 3, 0, 3, 0, 0, -3, 0, 5, 3, 0, 1, 0, 0, 5, 3, 0, 0, 0, 0, 1, 0, 3, 0, 1, 0, 0, 3, 5, 3, 3, 0, 0, 0, 5, 0, 5, 0, 3, 3, 0, -3, 0, 0, 5, 1, 5, 3, 0, 3, 0, 0)
 	with top rating		1
 	item 0:
@@ -1971,8 +1988,9 @@ looping through user	0: andrew...
 	out of top rating of 1.
 		deactivating lower rating flag. updating:
 		recommended:		[39, 47, 4, 25, 32, 33, 41, 2, 23]
-		recommendations:	{('andrew', 228): [(39, 5), (47, 5), (4, 3), (25, 3), (32, 3), (33, 3), (41, 3), (2, 1), (23, 1)]}.
+		recommendations:	{('andrew', 88, 228): [(39, 5), (47, 5), (4, 3), (25, 3), (32, 3), (33, 3), (41, 3), (2, 1), (23, 1)]}.
 looping through user	0: andrew...
+						88 index:
 			(3, 3, 1, 0, 3, 0, 3, 0, 0, -3, 0, 5, 3, 0, 1, 0, 0, 5, 3, 0, 0, 0, 0, 1, 0, 3, 0, 1, 0, 0, 3, 5, 3, 3, 0, 0, 0, 5, 0, 5, 0, 3, 3, 0, -3, 0, 0, 5, 1, 5, 3, 0, 3, 0, 0)
 	with top rating		1
 	item 0:
@@ -2089,5 +2107,6 @@ looping through user	0: andrew...
 	out of top rating of 1.
 		deactivating lower rating flag. updating:
 		recommended:		[39, 47, 4, 25, 32, 33, 41, 2, 23, 27]
-		recommendations:	{('andrew', 228): [(39, 5), (47, 5), (4, 3), (25, 3), (32, 3), (33, 3), (41, 3), (2, 1), (23, 1), (27, 1)]}.
+		recommendations:	{('andrew', 88, 228): [(39, 5), (47, 5), (4, 3), (25, 3), (32, 3), (33, 3), (41, 3), (2, 1), (23, 1), (27, 1)]}.
+
 Check the output file at /data/output/output-Moose.txt for the formatted output delivered by this logged run of the recommendation algorithm.

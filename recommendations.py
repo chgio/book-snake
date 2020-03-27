@@ -101,10 +101,12 @@ def wrap():
         print(f"Oh hey {user}! You aren't in the database. You must be new!")
         new_ratings = rater(user, books)
         write_ratings(user, new_ratings)
-        ratings.update({user: new_ratings})
+        r_index = rating_index(new_ratings)
+        ratings.update({user: (r_index, new_ratings)})
 
     else:
         print(f"Welcome back, {user}!")
+
     scores = compute_sorted_scores(user, ratings)
 
     # ask the user for the number of recommendations, sanitise the input and apply it
@@ -117,7 +119,7 @@ def wrap():
                 continue
             break
         except ValueError:
-            print("That's not a valid input. Please try again:")
+            print("That's not a valid input. Please input an integer:")
             continue
     
     # ask the user for a rating threshold, sanitise the input and apply it
@@ -131,7 +133,7 @@ def wrap():
                 rating_thr = int(rating_thr)
                 break
             except ValueError:
-                print("That's not a valid input. Please try again:")
+                print("That's not a valid input. Please input an integer:")
                 continue
     
     # ask the user for a similarity threshold, sanitise the input and apply it
@@ -145,11 +147,11 @@ def wrap():
                 score_thr = int(score_thr)
                 break
             except ValueError:
-                print("That's not a valid input. Please try again:")
+                print("That's not a valid input. Please input an integer:")
                 continue
 
     # check if the user's rating index is zero (meaning they only have 0-ratings)
-    r_index = rating_index(ratings[user])
+    r_index = ratings[user][1]
 
     # if so, compute and print the specified number of recommendations, picked randomly
     if r_index == 0:

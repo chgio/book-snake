@@ -3,81 +3,86 @@
 ****************************
 
 
-Recommended from: Moose                                (62 similarity)
-----------------------------------------------------------------------
+Recommended from: Moose                         (62 similarity)
+                                             (77 ratings index)
+---------------------------------------------------------------
 
-	 1.	The Hitchhiker's Guide To The Galaxy           (rated 5)
+	 1.	The Hitchhiker's Guide To The Galaxy          (rated 5)
 			by Douglas Adams
 
-	 2.	Watership Down                                 (rated 5)
+	 2.	Watership Down                                (rated 5)
 			by Richard Adams
 
-	 3.	The Great Gatsby                               (rated 5)
+	 3.	The Great Gatsby                              (rated 5)
 			by F. Scott Fitzgerald
 
-	 4.	The Lion the Witch and the Wardrobe            (rated 5)
+	 4.	The Lion the Witch and the Wardrobe           (rated 5)
 			by C S Lewis
 
-	 5.	Nineteen Eighty-Four (1984)                    (rated 5)
+	 5.	Nineteen Eighty-Four (1984)                   (rated 5)
 			by George Orwell
 
-	 6.	Harry Potter Series                            (rated 5)
+	 6.	Harry Potter Series                           (rated 5)
 			by J.K. Rowling
 
-	 7.	The Lord of the Rings                          (rated 5)
+	 7.	The Lord of the Rings                         (rated 5)
 			by J R R Tolkien
 
-	 8.	The Hobbit                                     (rated 5)
+	 8.	The Hobbit                                    (rated 5)
 			by J R R Tolkien
 
-	 9.	The Hunt for Red October                       (rated 3)
+	 9.	The Hunt for Red October                      (rated 3)
 			by Tom Clancy
 
-	10.	Inkheart                                       (rated 3)
+	10.	Inkheart                                      (rated 3)
 			by Cornelia Funke
 
-	11.	Neuromancer                                    (rated 3)
+	11.	Neuromancer                                   (rated 3)
 			by William Gibson
 
-	12.	To Kill a Mockingbird                          (rated 3)
+	12.	To Kill a Mockingbird                         (rated 3)
 			by Harper Lee
 
-	13.	The War Of The Worlds                          (rated 3)
+	13.	The War Of The Worlds                         (rated 3)
 			by H G Wells
 
 
-Recommended from: James                                (53 similarity)
-----------------------------------------------------------------------
+Recommended from: James                         (53 similarity)
+                                             (76 ratings index)
+---------------------------------------------------------------
 
-	14.	The Golden Compass                             (rated 5)
+	14.	The Golden Compass                            (rated 5)
 			by Philip Pullman
 
-	15.	Life of Pi                                     (rated 3)
+	15.	Life of Pi                                    (rated 3)
 			by Yann Martel
 
-	16.	Holes                                          (rated 3)
+	16.	Holes                                         (rated 3)
 			by Louis Sachar
 
-	17.	The Princess Diaries                           (rated 1)
+	17.	The Princess Diaries                          (rated 1)
 			by Meg Cabot
 
-	18.	The Princess Bride                             (rated 1)
+	18.	The Princess Bride                            (rated 1)
 			by William Goldman
 
 
-Recommended from: sage32                               (49 similarity)
-----------------------------------------------------------------------
+Recommended from: sage32                        (49 similarity)
+                                             (44 ratings index)
+---------------------------------------------------------------
 
-	19.	Brave New World                                (rated 3)
+	19.	Brave New World                               (rated 3)
 			by Aldous Huxley
 
-	20.	Shonen Jump Series                             (rated 3)
+	20.	Shonen Jump Series                            (rated 3)
 			by Shueisha
 
 
 20	Recommendations based on the similarity algorithm:
-for:				Gio
-	with ratings:	(0, 0, 0, 0, 0, 0, 5, 0, 0, 3, 0, 1, 0, 0, 0, 1, 0, 0, 3, 0, 1, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -3, 0, 0, -3, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3)
+for user:			Gio
+with ratings index:	27
+and ratings:	(0, 0, 0, 0, 0, 0, 5, 0, 0, 3, 0, 1, 0, 0, 0, 1, 0, 0, 3, 0, 1, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -3, 0, 0, -3, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3)
 with  rating      threshold of:	1
 and   similarity  threshold of:	None
+
 Check the recommendation algorithm log at logs/recommend-Gio_log.txt for more details about the recommendation process.

@@ -1,5 +1,7 @@
 ### functions for reading from and writing to input files
 
+from core import rating_index
+
 def read_books(books_file='data/input/books.txt'):
 
     # reads the file containing the books
@@ -21,13 +23,14 @@ def read_books(books_file='data/input/books.txt'):
     
     return books
 
+
 def read_ratings(ratings_file='data/input/ratings.txt'):
 
     # reads the file containing the rating vectors
     # ('ratings.txt' by default)
     # computes the rating index for every user
     # and returns the dictionary of tuples:
-    # {user: (rating, ...), ...}
+    # {user: (index, (rating, ...)), ...}
 
     ratings = {}
     try:
@@ -41,7 +44,8 @@ def read_ratings(ratings_file='data/input/ratings.txt'):
                     else:
                         rating = line.split()
                         rating = tuple(int(r) for r in rating)
-                        ratings.update({user: rating})
+                        r_index = rating_index(rating)
+                        ratings.update({user: (r_index, rating)})
                     user_flag = not user_flag
     except FileNotFoundError:
         raise FileNotFoundError(f'Ratings file at {ratings_file} not found. FIX: make sure the file exists, is in the correct directory and has the correct name')
@@ -67,7 +71,7 @@ def write_ratings(user, ratings, ratings_file='data/input/ratings.txt'):
 def printer(recommendations, user, books, ratings, rating_thr, score_thr):
 
     # takes the recommendations:
-    # {(user, score): [(book, rating), ...], ...}
+    # {(user, index, score): [(book, rating), ...], ...}
     # and outputs them both to standard output
     # and to the main output file
     # 'output-{name}.txt'
@@ -81,18 +85,25 @@ def printer(recommendations, user, books, ratings, rating_thr, score_thr):
 
         j = 0
         for key, val in recommendations.items():
-            r_user, score = key
-            s = f'Recommended from: {r_user}'.ljust(55) + f'({score} similarity)'.rjust(15)
-            s += '\n' + '-' * len(s)
+            r_user, r_index, r_score = key
+            s0 = f'Recommended from: {r_user}'
+            s1 = f'({r_score} similarity)'
+            s2 = f'({r_index} ratings index)'
 
-            print(s, end='\n')
-            print(s, end='\n\n', file=file)
+            s0a = s0.ljust(55)
+            s1a = s1.rjust(16)
+            sa = s0a + s1a + '\n' + '-' * (len(s0a+s1a) - len(s2)) + s2
+            print(sa, end='\n')
+            s0b = s0.ljust(45)
+            s1b = s1.rjust(18)
+            sb = s0b + s1b + '\n' + s2.rjust(len(s0b+s1b)) + '\n' + '-' * len(s0b+s1b)
+            print(sb, end='\n\n', file=file)
 
             for i, elt in enumerate(val):
                 n, rating = elt
                 author, book = books[n]
                 j += 1
-                s = f'\t{j:2d}.\t{book}'.ljust(51) + f'(rated {rating})'.rjust(10) + f'\n\t\t\tby {author}'
+                s = f'\t{j:2d}.\t{book}'.ljust(51) + f'(rated {rating})'.rjust(9) + f'\n\t\t\tby {author}'
                 print(s, end='\n')
                 print(s, end='\n\n', file=file)
             
@@ -100,10 +111,11 @@ def printer(recommendations, user, books, ratings, rating_thr, score_thr):
             print('', file=file)
         
         s = f'''{j}\tRecommendations based on the similarity algorithm:
-for:\t\t\t\t{user}
-\twith ratings:\t{ratings[user]}
+for user:\t\t\t{user}
+with ratings index:\t{ratings[user][0]}
+and ratings:\t{ratings[user][1]}
 with  rating      threshold of:\t{rating_thr}
-and   similarity  threshold of:\t{score_thr}'''
+and   similarity  threshold of:\t{score_thr}\n'''
         print(s, file=file)
 
         print(f'Check the output file at /data/output/output-{user}.txt and the algorithm log at logs/recommend-{user}_log.txt for more details.')
@@ -136,5 +148,6 @@ def random_printer(r_recommendations, user, books):
 
         s = f'''{len(r_recommendations)}\tRandom recommendations:
 for:\t\t\t\t{user}
-\tsince your ratings are all 0:\t{ratings[user]}'''
+\tsince your rating index is 0:\t{ratings[user][0]}
+\t\t({ratings[user][1]})'''
         print(s, file=file)
