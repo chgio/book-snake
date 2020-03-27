@@ -1,6 +1,6 @@
 Giorgio Ciacchella  | March 2020
 ---                 | ---
- x	            | CS-1P
+ x	                | CS-1P
 
 # CS-1P Assessed Exercise
 
@@ -36,37 +36,33 @@ books = [
 
 ```
 ratings = {
-    user:
-    (rating, ...),
+    user: (
+        index,
+        (rating, ...),
+        ...),
     ...}
 ```
-`ratings:`          a **dictionary** of **strings** that map to **integer sequence tuples,** since:
+`ratings:`          a **dictionary** of **strings** that map to an **integer, integer sequence tuple** since:
 *   as it stands, ratings have no meaningful order;
 *   there's a need for mapping each user to their ratings;
 *   again, this is relatively simple data, with relatively simple relationships with its components, other data and the algorithms that manipulate it, so this level of complexity seems the most appropriate.
 
-Concerning the `ratings,` I also came up with a possible metric related to users: a **rating index,** which would basically act as a **meta-recommendation.**
+This structure also includes a **rating index,** a user-based metric I came up with which basically acts as a **meta-recommendation.**
 
-This index would simply be *the sum of the absolute values of all the ratings for each user,* and would roughly represent the "polarity" level of any given user: it would be bigger for users who have rated many books and with "extreme" ratings -- like: `(5, -3, 0, 3, -5, 1)` -- while smaller for users who have rated few books and with "average" ratings -- like: `(1, 0, -3, 0, 0)` -- and could be printed out along each recommending user's similarity score to convey a sort of "confidence" in the recommendation.      
-It would ideally be calculated for each user upon reading from the `ratings.txt` file, and stored in a tuple along with the username for at-a-glance access:
-```
-ratings = {
-    (user, rating_index):
-    (rating, ...),
-    ...}
-```
-This may or may not have been actually implemented in the final revision of the program -- this file was written with time for more possible revisions ahead. Still, regardless of the implementation stage of this idea, I feel like it's a significant detail concerning the data structures involved in the program's operation.
+The rating index is simply *the sum of the absolute values of all the ratings for each user,* and roughly represents the "polarity" level of any given user: it's bigger for users who have rated many books and with "extreme" ratings -- like: `(5, -3, 0, 3, -5, 1);` smaller for users who have rated few books and with "average" ratings -- like: `(1, 0, -3, 0, 0).` It's printed out aside each recommending user's similarity score to convey a sort of "confidence" in the recommendation.
 
 ```
 recommendations = {
-    (user, score):
+    (user,
+    index,
+    score):
     [
         (book,
         rating),
         ...],
     ...}
 ```
-`recommendations:`  a **dictionary** of **string, integer tuples** that map to **lists** of **integer, integer tuples,** since:
+`recommendations:`  a **dictionary** of **string, integer, integer tuples** that map to **lists** of **integer, integer tuples,** since:
 *   this is an internal data structure, as it is created and exhausted without any I/O and only as a means of communication between functions;
 *   its only purpose is to fully and extensively encapsulate all the information about the recommendations as computed by the algorithm, and ready for a meaningful and good-looking print;
 *   its main use case is looking up the ordered list of recommendations from the user.
@@ -75,7 +71,7 @@ There are some more elementary data structures, which I'll only briefly mention 
 ```
 new_ratings = (rating, ...)
 random_recommendations = [book, ...]
-scores = [(user, score), ...]
+scores = [(user, index, score), ...]
 ```
 
 
@@ -96,17 +92,17 @@ The manipulation of input files is entirely done by three functions:
 *   `write_ratings():`      additionally, this function is responsible of writing new users' ratings to `ratings.txt.`
 On the other hand, the manipulation of output files is entirely done by just two functions:
 *   `printer():`            takes as argument a `recommendations` data structure from the core algorithm and nicely prints out all the information it contains to `output-{user}.txt;`
-*   `random_printer():`     takes as argument a `r_recommendations` data structure from the random recommendator and nicely prints out its information to `output-{user}.txt.`
+*   `random_printer():`     alternative function which takes as argument a `r_recommendations` data structure from the random recommendator and nicely prints out its information to `output-{user}.txt.`
 
 #### CORE ALGORITHM
 The `recommend()` algorithm is the hearth of the program, as it handles making the book recommendations and thus connects all the input data to the output structure.
 
 In order to operate properly, it needs a handful of helper functions:
+*   `rating_index():`           takes care of calculating the `rating_index` value hinted to above;
 *   `dprod():`                  simply takes as arguments two ratings vectors and calculates the dot product between them;
 *   `compute_similarity():`     wraps up the `dprod()` function to take as arguments two users and look them up in the `ratings` structure;
 *   `compute_sorted_scores():`  further wraps up the `compute_similarity()` function to only take as arguments one user and the `ratings` structure and compute all similarity scores for a given user and sort them to return the `scores` structure;
-*   `random_recommend():`       this alternative function makes the recommendations in case of a `rating_index` of `0;`
-*   `rating_index():`           additionally, this function takes care of calculating the `rating_index` value hinted to above.
+*   `random_recommend():`       alternative function which makes the recommendations in case of a `rating_index` of `0.`
 
 #### USER INTERFACE
 All interactions with the user are entirely handled by a **Command-Line Interface,** which is represented by two main functions:
@@ -167,7 +163,7 @@ But that's another topic.
 Such errors should be handled in a "soft", more defensive manner: that is to say, without raising any flow-breaking errors, which would cause the program to stop running.      
 Instead, I tried my best to handle them by simply catching the exceptions with one or more `try - except` statements, and encapsulating all this process in a `while` loop in order to repeatedly ask the user for appropriate input.
 
-Another kind of user-related "error" is introduced by the adoption of thresholds in the recommendations algorithm: as both the recommended book rating and the recommending user's similarity score can be set to a minimum, it is possible that the required number of recommendations exceeds such thresholds.        
+Another kind of user-related "error" is introduced by the adoption of thresholds in the recommendations algorithm: as the recommended book's rating and the recommending user's similarity and index can be set to a minimum, it's possible that the required number of recommendations exceeds such thresholds.        
 Despite these events leading to an unfulfillment of the user's request, they constitute neither a flow-breaking error nor an invalid user input; rather, they simply represent an overly ambitious request, which can't be fulfilled by the algorithm with its current data: as such, they're very "softly" treated by simply halting the algorithm's iteration, printing out a warning message, and resuming operation.
 
 Notable exceptions to this pattern are the functions which read from the input files, `read_books()` and `read_ratings(),` and the `dprod()` function, responsible for computing the dot product between two ratings vectors.
