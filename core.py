@@ -4,7 +4,7 @@ import random
 
 def rating_index(ratings):
 
-    # computes the ratings index
+    # computes the rating index
     # for the user ratings selected
 
     r_index = 0
@@ -66,7 +66,7 @@ def compute_sorted_scores(user, ratings):
     return sorted_scores
 
 
-def recommend(user, n, ratings, scores, rating_thr=1, score_thr=None):
+def recommend(user, n, ratings, scores, rating_thr=1, score_thr=1, index_thr=1):
 
     # core algorithm for making the recommendations
     # ---------------------------------------------
@@ -81,18 +81,19 @@ def recommend(user, n, ratings, scores, rating_thr=1, score_thr=None):
     with open(f'logs/recommend-{user}_log.txt', 'w') as log:
         recommended = []                                    # list of indices of books that have already been recommended
         recommendations = {}                                # dictionary with all the recommendations data, ready to be sent out
-        user_index, user_rating = ratings[user]             # current user ratings index and ratings, looked up from the ratings dictionary
+        user_index, user_rating = ratings[user]             # current user rating index and ratings, looked up from the ratings dictionary
         top = [0, 5]                                        # data about the current top recommendation...
 
         log.write(f'''logging recommendation algorithm run for\t{user}...
 \t\t\t\t\t\t\t\t\t\t\t{user_index} index:
 \t\t\t{user_rating}\n\n''')
 
-        # make one new recommendation per loop until the number of recommendations is satisfied:
-        while len(recommended) < n:
+        # make one new recommendation per loop until the number of recommendations is satisfied
+        # or the algorithm is halted by either book rating threshold, similarity score or rating index being exceeded
+        while len(recommended) < n and top[0] < len(scores) and scores[top[0]][2] >= score_thr and scores[top[0]][1] >= index_thr:
             top_user, top_rating = tuple(top)               # ...as [user, rating], in a list to be modifiable
             userb = scores[top_user]                        # data from the current top recommended user
-            userb_name, userb_index, userb_score = userb    # unpacked in username, ratings index and similarity score
+            userb_name, userb_index, userb_score = userb    # unpacked in username, rating index and similarity score
             userb_rating = ratings[userb_name][1]           # ratings from the current top recommended user
             
             log.write(f'''looping through user\t{top_user}: {userb_name}...
@@ -133,52 +134,57 @@ def recommend(user, n, ratings, scores, rating_thr=1, score_thr=None):
                 top[1] -= 1
                 log.write(f'\t\tlowering top rating to {top[1]}...\n')
 
-                # ...and if the top rating exceeds the rating threshold, skip to the next user
+                # ...and if the top rating exceeds the book rating threshold, skip to the next user
                 if top[1] < rating_thr:
-                    log.write(f'specified rating threshold of {rating_thr} exceeded by {top[1]}\n')
+                    log.write(f'specified book rating threshold of {rating_thr} exceeded by {top[1]}\n')
                     top[0] += 1
                     top[1] = 5
                     log.write(f'\tprogressing top user to user {top[0]}...\n')
             
-            # if a similarity score threshold is specified
-            # check if the current top recommended user's score exceeds it
-            if score_thr is not None:               
-                if scores[top[0]][1] < score_thr:
+        # after the loop is finished, check if any of the thresholds has been exceeded:
 
-                    log.write(f'''\nRECOMMENDATIONS HALTED:
+        # book rating threshold
+        if top[0] >= len(scores):
+            log.write(f'''\nRECOMMENDATIONS HALTED:
+ran out of the\t\t\t{len(scores)} users
+above the specified book rating threshold of\t{rating_thr}.
+CURRENT RECOMMENDATIONS ({len(recommended)}/{n}):
+{recommendations}
+FIX:
+lower the book rating threshold or extend the ratings list and retry.\n''')
+            break_msg = f'''RECOMMENDATIONS HALTED:\tran out of users above the specified book rating threshold.
+FIX:\t\tlower the book rating threshold or extend the ratings list and retry.\n'''
+
+        # similarity score threshold
+        elif scores[top[0]][2] < score_thr:
+            log.write(f'''\nRECOMMENDATIONS HALTED:
 specified similarity score threshold of\t{score_thr}
 exceeded by\t\t\t{scores[top[0]][1]}.
 CURRENT RECOMMENDATIONS ({len(recommended)}/{n}):
 {recommendations}
-FIX: lower the similarity score threshold and retry.\n''')
-                    print('''RECOMMENDATIONS HALTED:
-specified similarity score threshold exceeded.
-check the log at /logs/recommend_log.txt for more information.''')
+FIX:
+lower the similarity score threshold and retry.\n''')
+            break_msg = f'''RECOMMENDATIONS HALTED:\tspecified similarity score threshold exceeded.
+FIX:\t\tlower the similarity score threshold and retry.\n'''
 
-                    break
-
-            # (a rating threshold is specified by default to 1,
-            # thanks to its improved reliability
-            # compared to the similarity score threshold)
-            # check if there are no more users to recommend --
-            # which would cause an error next loop, as the top tuple is unpacked:
-            # the current top recommended user would be out of the list
-            if top[0] == len(scores):
-
-                log.write(f'''\nRECOMMENDATIONS HALTED:
-ran out of the\t\t\t{len(scores)} users
-above the specified rating threshold of\t{rating_thr}.
+        # rating index threshold
+        elif scores[top[0]][1] < index_thr:
+            log.write(f'''\nRECOMMENDATIONS HALTED:
+specified rating index threshold of\t{index_thr}
+exceeded by\t\t\t{scores[top[0]][1]}.
 CURRENT RECOMMENDATIONS ({len(recommended)}/{n}):
 {recommendations}
-FIX: lower the rating threshold or extend the ratings list and retry.\n''')
-                print('''RECOMMENDATIONS HALTED:
-ran out of users above the specified rating score threshold.
-check the log at /logs/recommend_log.txt for more information.''')
+FIX:
+lower the rating index threshold and retry.\n''')
+            break_msg = f'''RECOMMENDATIONS HALTED:\tspecified rating index threshold exceeded.
+FIX:\t\tlower the rating index threshold and retry.\n'''
 
-                break
+        # otherwise, if no threshold has been exceeded:
+        else:
+            break_msg = ''
     
         log.write(f'\nCheck the output file at /data/output/output-{user}.txt for the formatted output delivered by this logged run of the recommendation algorithm.')
-    return recommendations
+    return recommendations, break_msg
 
 
 def random_recommend(n, books):

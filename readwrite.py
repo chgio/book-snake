@@ -68,7 +68,7 @@ def write_ratings(user, ratings, ratings_file='data/input/ratings.txt'):
         print('', file=file)
 
 
-def printer(recommendations, user, books, ratings, rating_thr, score_thr):
+def printer(recommendations, break_msg, user, books, ratings, rating_thr, score_thr, index_thr):
 
     # takes the recommendations:
     # {(user, index, score): [(book, rating), ...], ...}
@@ -80,7 +80,7 @@ def printer(recommendations, user, books, ratings, rating_thr, score_thr):
         s = f'* Recommendations for: {user} *'
         stars = '*' * len(s)
         s = stars + '\n' + s + '\n' + stars
-        print(f'Here are your recommendations based on the similarity algorithm, {user}:')
+        print(f'Here are your recommendations based on the similarity algorithm, {user}:\n')
         print(s, end='\n\n\n', file=file)
 
         j = 0
@@ -88,7 +88,7 @@ def printer(recommendations, user, books, ratings, rating_thr, score_thr):
             r_user, r_index, r_score = key
             s0 = f'Recommended from: {r_user}'
             s1 = f'({r_score} similarity)'
-            s2 = f'({r_index} ratings index)'
+            s2 = f'({r_index} rating index)'
 
             s0a = s0.ljust(55)
             s1a = s1.rjust(16)
@@ -109,13 +109,19 @@ def printer(recommendations, user, books, ratings, rating_thr, score_thr):
             
             print('')
             print('', file=file)
+
+        if len(break_msg) != 0:
+            print(break_msg)
+            print(break_msg, file=file)
         
         s = f'''{j}\tRecommendations based on the similarity algorithm:
 for user:\t\t\t{user}
-with ratings index:\t{ratings[user][0]}
-and ratings:\t{ratings[user][1]}
-with  rating      threshold of:\t{rating_thr}
-and   similarity  threshold of:\t{score_thr}\n'''
+with rating index:\t{ratings[user][0]}
+ratings:\t\t{ratings[user][1]}
+and thresholds:
+book rating:\t\t{rating_thr}
+similarity score:\t{score_thr}
+rating index:\t\t{index_thr}\n'''
         print(s, file=file)
 
         print(f'Check the output file at /data/output/output-{user}.txt and the algorithm log at logs/recommend-{user}_log.txt for more details.')

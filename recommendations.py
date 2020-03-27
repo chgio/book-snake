@@ -122,9 +122,9 @@ def wrap():
             print("That's not a valid input. Please input an integer:")
             continue
     
-    # ask the user for a rating threshold, sanitise the input and apply it
+    # ask the user for a book rating threshold, sanitise the input and apply it
     while True:
-        rating_thr = input("Do you want to set a rating threshold for the recommended books? value/[N]: ").strip().lower()
+        rating_thr = input("Do you want to set a book rating threshold for the recommended books? value/[N]: ").strip().lower()
         if len(rating_thr) == 0 or rating_thr[0] == 'n':
             rating_thr = 1
             break
@@ -136,15 +136,29 @@ def wrap():
                 print("That's not a valid input. Please input an integer:")
                 continue
     
-    # ask the user for a similarity threshold, sanitise the input and apply it
+    # ask the user for a similarity score threshold, sanitise the input and apply it
     while True:
-        score_thr = input("Do you want to set a similarity threshold for the recommended books? value/[N]: ").strip().lower()
+        score_thr = input("Do you want to set a similarity score threshold for the recommended books? value/[N]: ").strip().lower()
         if len(score_thr) == 0 or score_thr[0] == 'n':
-            score_thr = None
+            score_thr = 1
             break
         else:
             try:
                 score_thr = int(score_thr)
+                break
+            except ValueError:
+                print("That's not a valid input. Please input an integer:")
+                continue
+    
+    # ask the user for a rating index threshold, sanitise the input and apply it
+    while True:
+        index_thr = input("Do you want to set a rating index threshold for the recommended books? value/[N]: ").strip().lower()
+        if len(index_thr) == 0 or index_thr[0] == 'n':
+            index_thr = 1
+            break
+        else:
+            try:
+                index_thr = int(index_thr)
                 break
             except ValueError:
                 print("That's not a valid input. Please input an integer:")
@@ -160,8 +174,8 @@ def wrap():
 
     # otherwise, compute and print the specified number of recommendations, according to the similarity algorithm
     else:
-        recommendations = recommend(user, n, ratings, scores, rating_thr, score_thr)
-        printer(recommendations, user, books, ratings, rating_thr, score_thr)
+        recommendations, break_msg = recommend(user, n, ratings, scores, rating_thr, score_thr, index_thr)
+        printer(recommendations, break_msg, user, books, ratings, rating_thr, score_thr, index_thr)
 
 
 
