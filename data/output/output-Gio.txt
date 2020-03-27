@@ -4,7 +4,7 @@
 
 
 Recommended from: Moose                         (62 similarity)
-                                             (77 ratings index)
+                                              (77 rating index)
 ---------------------------------------------------------------
 
 	 1.	The Hitchhiker's Guide To The Galaxy          (rated 5)
@@ -48,7 +48,7 @@ Recommended from: Moose                         (62 similarity)
 
 
 Recommended from: James                         (53 similarity)
-                                             (76 ratings index)
+                                              (76 rating index)
 ---------------------------------------------------------------
 
 	14.	The Golden Compass                            (rated 5)
@@ -68,7 +68,7 @@ Recommended from: James                         (53 similarity)
 
 
 Recommended from: sage32                        (49 similarity)
-                                             (44 ratings index)
+                                              (44 rating index)
 ---------------------------------------------------------------
 
 	19.	Brave New World                               (rated 3)
@@ -80,9 +80,11 @@ Recommended from: sage32                        (49 similarity)
 
 20	Recommendations based on the similarity algorithm:
 for user:			Gio
-with ratings index:	27
-and ratings:	(0, 0, 0, 0, 0, 0, 5, 0, 0, 3, 0, 1, 0, 0, 0, 1, 0, 0, 3, 0, 1, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -3, 0, 0, -3, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3)
-with  rating      threshold of:	1
-and   similarity  threshold of:	None
+with rating index:	27
+ratings:		(0, 0, 0, 0, 0, 0, 5, 0, 0, 3, 0, 1, 0, 0, 0, 1, 0, 0, 3, 0, 1, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -3, 0, 0, -3, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3)
+and thresholds:
+book rating:		1
+similarity score:	1
+rating index:		1
 
 Check the recommendation algorithm log at logs/recommend-Gio_log.txt for more details about the recommendation process.
