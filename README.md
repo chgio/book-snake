@@ -6,6 +6,7 @@ Giorgio Ciacchella  | March 2020
 
 
 ### Foreword:
+
 In accordance with common-sense good coding practices, a copious number of comments was scattered throughout the files, which describe all sorts of comment-worthy information about the functioning of the program.
 
 This includes:
@@ -19,7 +20,6 @@ I genuinely hope that, if this file didn't exist, or was for any reason lost or 
 
 
 # 1. Describe any complex data structures you used and explain why you think they are suitable.
----
 
 When deciding the appropriate structures for capturing the data, I focused on staying consistent with the pattern lined out by the input files, and on foreseeing what structures would be most appropriate for making the code that applies the operations and algorithms as clean as possible.
 
@@ -76,7 +76,6 @@ scores = [(user, index, score), ...]
 
 
 # 2. How did you break down the problem into sub-problems? Explain the sub-problems and explain how they are organized in recommendations.py.
----
 
 The problem naturally presented itself in three main sub-problems:
 *   input/output;
@@ -111,7 +110,6 @@ All interactions with the user are entirely handled by a **Command-Line Interfac
 
 
 # 3. Are there any parts of your code that you think are difficult to understand? If yes, explain them here.
----
 
 One of the least clear parts of my code is quite probably the "type-finding" section in the `rater` function, which prints a type-based error message upon invalid user input:
 ```
@@ -154,7 +152,6 @@ In most of the cases where this pattern is applied, I've chosen not to include t
 
 
 # 4. Which possible errors could occur and how have you handled them? Explain whether you have used exception handling or defensive programming and use examples if you like.
----
 
 The general scheme I followed for error handling in this scenario was the following.
 
@@ -176,3 +173,15 @@ Likewise, in the second case, since the dot product operation is only defined be
 
 
 Across all these cases, in accordance with basic HCI usability principles, I tried my best to make the error messages -- whether "soft" `print` statements or "hard" `Error` throws -- as meaningful and excplicit as possible about the reason they were raised and any possible fixes.
+
+
+
+# License
+
+Copyright (c) 2020 Giorgio Ciacchella
+
+This software is distributed under a **slightly modified** version of the MIT License.      
+You are therefore free to use it in accordance with the usual terms of the original MIT License, **except from student works at the University of Glasgow.**        
+**Don't cheat.**
+
+See the full License at `LICENSE` or https://spdx.org/licenses/MIT for more details.
